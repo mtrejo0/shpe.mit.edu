@@ -1,0 +1,42 @@
+.section {
+  text-align: center;
+}
+.section .bg {
+  background: inherit;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: -15%;
+  right: 0;
+  width: 130%;
+}
+.section i {
+  text-decoration: none;
+  padding-right: 0.5em;
+}
+.content {
+  z-index: 99;
+  position: relative;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: left;
+}
+#section1 {
+  vertical-align: center;
+}
+#section1 #logo {
+  display: block;
+  margin: 0 auto;
+}
+#section2 {
+  vertical-align: center;
+}
+#section2 .bg {
+  background: #87bfe4;
+}
+#section3 {
+  vertical-align: center;
+}
+#section3 .bg {
+  background: #87bfe4;
+}

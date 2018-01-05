@@ -1,0 +1,24 @@
+{
+  "name": "shpe.mit.edu",
+  "version": "1.0.0",
+  "description": "The website for MIT Society of Hispanic Professional Engineers",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dggsax/shpe.mit.edu.git"
+  },
+  "keywords": [
+    "SHPE",
+    "MIT",
+    "vitoria"
+  ],
+  "author": "Gonzo'",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dggsax/shpe.mit.edu/issues"
+  },
+  "homepage": "https://github.com/dggsax/shpe.mit.edu#readme"
+}
