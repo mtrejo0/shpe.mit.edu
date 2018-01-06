@@ -28,15 +28,60 @@
   display: block;
   margin: 0 auto;
 }
-#section2 {
-  vertical-align: center;
+#section1 h1 {
+  font-family: Montserrat;
+  font-size: 35px;
+  color: #001F5B;
+  font-size: 50px;
+  text-align: center;
+}
+#section1 p {
+  font-family: Montserrat;
+  font-size: 35px;
+  color: #001F5B;
+  text-align: center;
 }
 #section2 .bg {
-  background: #87bfe4;
+  background: #ffffff;
+}
+#section2 #officers {
+  margin-left: 10%;
+  margin-right: 10%;
 }
 #section3 {
   vertical-align: center;
 }
 #section3 .bg {
   background: #87bfe4;
+}
+.officer {
+  z-index: 99;
+  width: 300px;
+  height: 400px;
+  background: #001F5B;
+  padding: 10px;
+  position: relative;
+  display: inline-block;
+  margin: 20px 20px 20px 20px;
+}
+.officer .headshot {
+  width: 300px;
+  height: 400px;
+  position: absolute;
+  display: block;
+}
+.officer .info {
+  width: 300px;
+  height: auto;
+  visibility: hidden;
+  position: absolute;
+  display: block;
+  color: white;
+  text-align: left;
+}
+.officer:hover .headshot {
+  visibility: hidden;
+}
+.officer:hover .info {
+  visibility: visible;
 }

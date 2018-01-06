@@ -1,3 +1,5 @@
+@shpe-blue: #001F5B;
+
 // fullPage.js stuff
 .section {
     text-align: center;
@@ -16,6 +18,7 @@
         text-decoration: none;
         padding-right: 0.5em;
     }
+
 }
 
 .content {
@@ -35,13 +38,29 @@
     	margin: 0 auto;
     }
 
+    h1 {
+    	.shpe-font();
+    	font-size: 50px;
+    	text-align: center;	
+    }
+
+    p {
+    	.shpe-font();
+    	text-align: center;
+    }
+
 }
 
 #section2 {
-    vertical-align: center;
     .bg {
-        background: #87bfe4;
+        background: rgb(255,255,255);
     }
+
+    #officers {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
 
 }
 
@@ -52,3 +71,57 @@
     }
 
 }
+
+.officer {
+    @card-width: 300px;
+    @card-height: 400px;
+    z-index: 99;
+	width: @card-width;
+	height: @card-height;
+    background: @shpe-blue;
+    padding: 10px;
+    position: relative;
+    display: inline-block;
+
+    margin: 20px 20px 20px 20px;
+
+    .headshot {
+        width: @card-width;
+        height: @card-height;
+        position: absolute;
+        display: block;
+    }
+    
+    .info {
+        width: @card-width;
+        height: auto;
+        visibility: hidden;
+        position: absolute;
+        display: block;
+        color: white;
+        text-align: left;
+    }
+
+	&:hover{
+        // background: lighten(@shpe-blue, 20);
+
+        .headshot {
+            // filter: blur(3px);
+            visibility: hidden;
+            // background: rgba(255,255,255);
+        }
+
+        .info {
+            visibility: visible;
+        }
+	}
+}
+
+
+.shpe-font() {
+	font-family: Montserrat;
+	font-size: 35px;
+	color: @shpe-blue;
+}
+
+
