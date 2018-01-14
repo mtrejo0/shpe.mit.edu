@@ -97,5 +97,32 @@
         "facebook": "",
         "linkedin": "",
         "photo": "david"
+    },
+    {
+        "name": "Ceci Padilla",
+        "position": "Hispanic Issues Liaison",
+        "email": "cpadilla@mit.edu",
+        "twitter": "",
+        "facebook": "",
+        "linkedin": "",
+        "photo": "ceci"
+    },
+    {
+        "name": "Dayme Delgado",
+        "position": "Community Service Committee",
+        "email": "dayme@mit.edu",
+        "twitter": "",
+        "facebook": "",
+        "linkedin": "",
+        "photo": "dayme"
+    },
+    {
+        "name": "Hidai Olivas-Holguin",
+        "position": "Community Service Committee",
+        "email": "hidai@mit.edu",
+        "twitter": "",
+        "facebook": "",
+        "linkedin": "",
+        "photo": "hidai"
     }
 ]
