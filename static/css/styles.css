@@ -73,9 +73,20 @@
   color: #001F5B;
 }
 #section3 h1,
+#section3 h2,
 #section3 p {
   font-family: Montserrat;
   color: #001F5B;
+  text-align: center;
+}
+#section3 h1 {
+  font-size: 40px;
+}
+#section3 h2 {
+  font-size: 30px;
+}
+#section3 p {
+  font-size: 25px;
 }
 .officer {
   z-index: 99;
