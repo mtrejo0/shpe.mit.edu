@@ -18,22 +18,67 @@
         "photo": "xavier"
     },
     {
-        "name": "Ignacio Casteinieras Ortega",
+        "name": "Andrea Bolivar",
+        "position": "Secretary",
+        "email": "bolivara@mit.edu",
+        "twitter": "",
+        "facebook": "",
+        "linkedin": "",
+        "photo": "andrea"
+    },
+    {
+        "name": "Ignacio Ortega",
         "position": "Treasurer",
-        "email": "iggy@mit.edu",
+        "email": "ignacioo@mit.edu",
         "twitter": "",
         "facebook": "",
         "linkedin": "",
         "photo": "iggy"
     },
     {
-        "name": "Andrea Bolivar",
-        "position": "Secretary",
-        "email": "andreab@mit.edu",
+        "name": "Gabriela Carrion-Rivera",
+        "position": "Fundraising Chair",
+        "email": "gabimari@mit.edu",
         "twitter": "",
         "facebook": "",
         "linkedin": "",
-        "photo": "andrea"
+        "photo": "gabi"
+    },
+    {
+        "name": "Jose Soto",
+        "position": "Corporate Liason",
+        "email": "jodosori@mit.edu",
+        "twitter": "",
+        "facebook": "",
+        "linkedin": "",
+        "photo": "jose"
+    },
+    {
+        "name": "Mario Contreras",
+        "position": "Regional Representative",
+        "email": "deku@mit.edu",
+        "twitter": "",
+        "facebook": "",
+        "linkedin": "",
+        "photo": "iggy"
+    },
+    {
+        "name": "Pascual Marquez",
+        "position": "Student Activities Liaison",
+        "email": "pmarquez@mit.edu",
+        "twitter": "",
+        "facebook": "",
+        "linkedin": "",
+        "photo": "pascual"
+    },
+    {
+        "name": "Joaquin Giraldo",
+        "position": "Philanthropy Chair",
+        "email": "joaquing@mit.edu",
+        "twitter": "",
+        "facebook": "",
+        "linkedin": "",
+        "photo": "joaquin"
     },
     {
         "name": "Daniel Gonzalez",
@@ -43,5 +88,14 @@
         "facebook": "dggsax",
         "linkedin": "dangonzo",
         "photo": "gonzo"
-    }
+    },
+    {
+        "name": "David Pacheco",
+        "position": "Academic Chair",
+        "email": "dpacheco@mit.edu",
+        "twitter": "",
+        "facebook": "",
+        "linkedin": "",
+        "photo": "david"
+    },
 ]
