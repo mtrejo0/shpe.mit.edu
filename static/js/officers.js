@@ -31,11 +31,12 @@ function createOfficerTabs() {
 	var informationArray= [];
 	// info we're reading form
 	$.getJSON('../static/officers.json', function(data) 
-	{
-		$.each(data, function(key, val)
-		{
-			informationArray.push(key + '-' + val);
-		});
+	{	
+		// $.each(data, function(key, val)
+		// {
+		// 	informationArray.push(key + '-' + val);
+		// });
+		console.log($(data).length);
 		console.log(informationArray);
 	});
 
