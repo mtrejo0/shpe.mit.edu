@@ -88,6 +88,16 @@
 #section3 p {
   font-size: 25px;
 }
+#section4 h1 {
+  font-family: Montserrat;
+  color: #001F5B;
+  font-size: 50px;
+  text-align: center;
+}
+#section4 img {
+  width: 100%;
+  position: relative;
+}
 .officer {
   z-index: 99;
   width: 300px;
