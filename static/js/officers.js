@@ -30,7 +30,7 @@ function createOfficerTabs() {
 	target = document.getElementById('officers');
 	var informationArray= [];
 	// info we're reading form
-	$.getJSON('../static/officers.json', function(json) 
+	$.getJSON('../static/officers.json', function(data) 
 	{
 		$.each(data, function(key, val)
 		{
