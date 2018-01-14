@@ -35,11 +35,13 @@ function createOfficerTabs() {
 		console.log($(data).length);
 		for ( var i = 0; i < data.length; i ++) {
 			console.log(data[i]);
+			var bullet = officer(data[i].position, data[i].name, data[i].email);
+			$(bullet).appendTo(target).trigger('create');
 		}
 	});
 
-	for (var i = 0; i < 120; i++) {
-		var bullet = officer('President','gonzo','dangonzo@mit.edu');
-		$(bullet).appendTo(target).trigger('create');
-	}
+	// for (var i = 0; i < 120; i++) {
+	// 	var bullet = officer('President','gonzo','dangonzo@mit.edu');
+	// 	$(bullet).appendTo(target).trigger('create');
+	// }
 }
