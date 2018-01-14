@@ -6,12 +6,12 @@ function slider_generate(name){
     officers.push({'name': name, 'obj':officer});
 };
 
-function officer(role,name,email) {
+function officer(role,name,email,photo) {
 	var officer = document.createElement('div');
 	$(officer).addClass('officer');
 	var headshot = document.createElement('img');
 	$(headshot).addClass('headshot');
-	$(headshot).attr('src','static/images/'+name+'.jpeg');
+	$(headshot).attr('src','static/images/'+photo+'.jpeg');
 	// var image = '<img src="static/images/'+name+'.jpeg></img>';
 	// $(image);
 
@@ -35,7 +35,7 @@ function createOfficerTabs() {
 		console.log($(data).length);
 		for ( var i = 0; i < data.length; i ++) {
 			console.log(data[i]);
-			var bullet = officer(data[i].position, data[i].name, data[i].email);
+			var bullet = officer(data[i].position, data[i].name, data[i].email, data[i].photo);
 			$(bullet).appendTo(target).trigger('create');
 		}
 	});
