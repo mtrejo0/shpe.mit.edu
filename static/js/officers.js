@@ -11,7 +11,7 @@ function officer(role,name,email,photo) {
 	$(officer).addClass('officer');
 	var headshot = document.createElement('img');
 	$(headshot).addClass('headshot');
-	$(headshot).attr('src','static/images/'+photo+'.jpeg');
+	$(headshot).attr('src','static/images/headshots/'+photo+'.jpeg');
 	// var image = '<img src="static/images/'+name+'.jpeg></img>';
 	// $(image);
 
