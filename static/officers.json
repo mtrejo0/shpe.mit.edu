@@ -1,0 +1,47 @@
+[
+    {
+        "name": "Vitoria Moreno Costa",
+        "position": "President",
+        "email": "vcosta@mit.edu",
+        "twitter": "",
+        "facebook": "",
+        "linkedin": "",
+        "photo": "vitoria"
+    },
+    {
+        "name": "Xavier Zapien",
+        "position": "Vice President",
+        "email": "xzapien@mit.edu",
+        "twitter": "",
+        "facebook": "",
+        "linkedin": "",
+        "photo": "xavier"
+    },
+    {
+        "name": "Ignacio Casteinieras Ortega",
+        "position": "Treasurer",
+        "email": "iggy@mit.edu",
+        "twitter": "",
+        "facebook": "",
+        "linkedin": "",
+        "photo": "iggy"
+    },
+    {
+        "name": "Andrea Bolivar",
+        "position": "Secretary",
+        "email": "andreab@mit.edu",
+        "twitter": "",
+        "facebook": "",
+        "linkedin": "",
+        "photo": "andrea"
+    },
+    {
+        "name": "Daniel Gonzalez",
+        "position": "Information Resources Chair",
+        "email": "dangonzo@mit.edu",
+        "twitter": "DanielGonzo2016",
+        "facebook": "dggsax",
+        "linkedin": "dangonzo",
+        "photo": "gonzo"
+    }
+]

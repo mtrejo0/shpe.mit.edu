@@ -47,6 +47,7 @@
     p {
     	.shpe-font();
     	text-align: center;
+        font-size: 35px;
     }
 
 }
@@ -56,18 +57,38 @@
         background: rgb(255,255,255);
     }
 
+    .content {
+        text-align: center;
+        h1 {
+            color: @shpe-blue;
+        }
+    }
     #officers {
         margin-left: 10%;
         margin-right: 10%;
     }
 
+    h1, h3, p {
+        .shpe-font();
+        color: white;
+    }
 
 }
 
 #section3 {
-    vertical-align: center;
+    text-align: center;
     .bg {
-        background: #87bfe4;
+        background: rgb(255,255,255);
+    }
+    .content {
+        text-align: center;
+        h1 {
+            color: @shpe-blue;
+        }
+    }
+
+    h1, p {
+        .shpe-font();
     }
 
 }
@@ -99,7 +120,7 @@
         position: absolute;
         display: block;
         color: white;
-        text-align: left;
+        text-align: center;
     }
 
 	&:hover{
@@ -120,7 +141,7 @@
 
 .shpe-font() {
 	font-family: Montserrat;
-	font-size: 35px;
+	// font-size: 35px;
 	color: @shpe-blue;
 }
 

@@ -28,13 +28,18 @@ function officer(role,name,email) {
 function createOfficerTabs() {
 	// where we're building to
 	target = document.getElementById('officers');
-
+	var informationArray= [];
 	// info we're reading form
-	// $.getJSON('../officers.json', function(json) {
-	// 	var array
-	// }
+	$.getJSON('../officers.json', function(json) 
+	{
+		$.each(data, function(key, val)
+		{
+			informationArray.push(key + '-' + val);
+		});
+		console.log(informationArray);
+	});
 
-	for (var i = 0; i < 5; i++) {
+	for (var i = 0; i < 120; i++) {
 		var bullet = officer('President','gonzo','dangonzo@mit.edu');
 		$(bullet).appendTo(target).trigger('create');
 	}
