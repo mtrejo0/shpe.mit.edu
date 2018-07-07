@@ -1,19 +1,45 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './styles/App.css';
+import './styles/Tabs.css';
+import Header from './components/header';
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import About from './containers/About';
+import Sponsors from './containers/Sponsors';
+import Exec from './containers/Exec';
+import ContactUs from './containers/ContactUs';
+
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
+		<div className="App">
+		
+			<Header />
+
+			<Tabs>
+				{/* The tabs */}
+				<TabList>
+					<Tab>About Us</Tab>
+					<Tab>Our Sponsors</Tab>
+					<Tab>Executive Board</Tab>
+					<Tab>Contact Us</Tab>
+				</TabList>
+
+				{/* The content for each tab */}
+				<TabPanel>
+					<About/>
+				</TabPanel>
+				<TabPanel>
+					<Sponsors/>
+				</TabPanel>
+				<TabPanel>
+					<Exec/>
+				</TabPanel>
+				<TabPanel>
+					<ContactUs/>
+				</TabPanel>
+			</Tabs>
+		</div>
     );
   }
 }
