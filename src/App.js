@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import './styles/App.css';
 import './styles/Tabs.css';
+import './styles/Officer.css';
+import './styles/About.css';
 import Header from './components/header';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import About from './containers/About';
 import Sponsors from './containers/Sponsors';
 import Exec from './containers/Exec';
 import ContactUs from './containers/ContactUs';
-
 
 class App extends Component {
   render() {

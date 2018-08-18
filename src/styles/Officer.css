@@ -1,14 +1,15 @@
 .user {
-    width: 100%;
-    max-width: 450px;
-    margin: 0 auto;
+    width: 450px;
+    height: 550px;
     border-radius: 5px;
     text-align: center;
     overflow: hidden;
     box-shadow: 2px 2px 5px #000000;
     border: 1px solid #000;
-    background-color: rgba(white, 0.7);
+    display: inline-block;
+    margin: 10px;
 }
+
 
 hr {
     margin: 20px auto;
@@ -34,17 +35,20 @@ h4 {
 }
 
 p {
-    font-size: 14px;
+    font-size: 16px;
 }
 
-.top, .bottom {
-    padding: 30px;
+a {
+    text-decoration: none;
+    color: black;
 }
-  
-.bottom {
 
-    background-color: rgba(black, 0.3);
+.user > .top{
+    padding: 30px 30px 0px 30px;
+}
+.user > .bottom {
     text-align: left;
+    padding: 15px;
 }
 
 .avatar {
@@ -54,7 +58,8 @@ p {
     margin-bottom: 15px;
     border: 1px solid #000;
     
-  }
+}
+
 .avatar img {
     width: 100%;
 }

@@ -5,8 +5,16 @@ import Avatar from './avatar';
 
 export default class MainPanel extends Component {
 
+    generateMailTo() {
+        let kerb = this.props.info.email
+        let name = this.props.info.name
+
+        return `mailto:${kerb}?subject=Hi%20${name},%20 I'd like to connect`
+    }
+
     render() {
       var info = this.props.info;
+
       if (!info) return null;
       
       return (
@@ -14,10 +22,10 @@ export default class MainPanel extends Component {
             <div className="top">
                 <Avatar 
                     image={info.photo} 
-                    width={100}
-                    height={100}
+                    width={175}
+                    height={175}
                 /> 
-                <h2>{info.name}</h2>
+                <h2><a href={this.generateMailTo()} target="_none">{info.name}</a></h2>
                 <h3>{info.position}</h3>
                 
                 <hr />
