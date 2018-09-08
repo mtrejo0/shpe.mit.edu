@@ -18,12 +18,12 @@ export default class MainPanel extends Component {
       if (!info) return null;
       
       return (
-        <div className="user">
+        <div className="user grid-item">
             <div className="top">
                 <Avatar 
                     image={info.photo} 
-                    width={175}
-                    height={175}
+                    width={150}
+                    height={150}
                 /> 
                 <h2><a href={this.generateMailTo()} target="_none">{info.name}</a></h2>
                 <h3>{info.position}</h3>

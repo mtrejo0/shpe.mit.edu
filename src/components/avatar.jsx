@@ -13,7 +13,7 @@ export default class Avatar extends Component {
         
         return (
         <div className="avatar" style={style}>
-            <img src={image} alt="nudes"/> 
+            <img src={image}/> 
         </div>
         );
     }

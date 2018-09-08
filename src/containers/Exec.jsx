@@ -54,13 +54,16 @@ export default class Header extends Component {
         console.log(this.state.officers);
 
         return (
-            <ul>
+            <div className="officers">
+            <h1 className="section-title">Our Executive Board</h1>
+            <ul className="execRow grid">
                 {
                     this.state.officers.map(i => {
                         return <Officer key={i.name} info={i}/>
                     })
                 }
             </ul>
+            </div>
         )
     }
 }
