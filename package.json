@@ -4,8 +4,8 @@
   "private": true,
   "dependencies": {
     "masonry-layout": "^4.2.2",
-    "react": "^16.4.1",
-    "react-dom": "^16.4.1",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
     "react-scripts": "1.1.4"
   },
   "scripts": {
