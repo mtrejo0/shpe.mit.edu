@@ -1,0 +1,174 @@
+@shpe-blue: #001F5B;
+
+// fullPage.js stuff
+.section {
+    text-align: center;
+
+    .bg {
+        background: inherit;
+        position: absolute;
+        height: 100%;
+        top: 0;
+        left: -15%;
+        right: 0;
+        width: 130%;
+    }
+
+    i {
+        text-decoration: none;
+        padding-right: 0.5em;
+    }
+
+}
+
+.content {
+    z-index: 99;
+    position: relative;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: left;
+}
+
+
+#section1 {
+    vertical-align: center;
+
+    #logo {
+    	display: block;
+    	margin: 0 auto;
+    }
+
+    h1 {
+    	.shpe-font();
+    	font-size: 50px;
+    	text-align: center;	
+    }
+
+    p {
+    	.shpe-font();
+    	text-align: center;
+        font-size: 35px;
+    }
+
+}
+
+#section2 {
+    .bg {
+        background: rgb(255,255,255);
+    }
+
+    .content {
+        text-align: center;
+        h1 {
+            color: @shpe-blue;
+        }
+    }
+    #officers {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    h1, h3, p {
+        .shpe-font();
+        color: white;
+    }
+
+}
+
+#section3 {
+    text-align: center;
+    .bg {
+        background: rgb(255,255,255);
+    }
+    .content {
+        text-align: center;
+        h1 {
+            color: @shpe-blue;
+        }
+    }
+
+    h1, h2, p {
+        .shpe-font();
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 40px; 
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 25px;
+    }
+
+}
+
+#section4 {
+    h1 {
+        .shpe-font();
+        font-size: 50px;
+        text-align: center;
+    }
+
+    img {
+        width: 100%;
+        position: relative;
+    }
+}
+
+.officer {
+    @card-width: 300px;
+    @card-height: 400px;
+    z-index: 99;
+	width: @card-width;
+	height: @card-height;
+    background: @shpe-blue;
+    padding: 10px;
+    position: relative;
+    display: inline-block;
+
+    margin: 20px 20px 20px 20px;
+
+    .headshot {
+        width: @card-width;
+        height: @card-height;
+        position: absolute;
+        display: block;
+    }
+    
+    .info {
+        width: @card-width;
+        height: auto;
+        visibility: hidden;
+        position: absolute;
+        display: block;
+        color: white;
+        text-align: center;
+    }
+
+	&:hover{
+        // background: lighten(@shpe-blue, 20);
+
+        .headshot {
+            // filter: blur(3px);
+            visibility: hidden;
+            // background: rgba(255,255,255);
+        }
+
+        .info {
+            visibility: visible;
+        }
+	}
+}
+
+
+.shpe-font() {
+	font-family: Montserrat;
+	// font-size: 35px;
+	color: @shpe-blue;
+}
+
+
