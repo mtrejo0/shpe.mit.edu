@@ -25,7 +25,7 @@ export default class Header extends Component {
 
         information.information.map((officer, index) => {
             // officer = [photo (kerberos), name, position, email, year, major, bio]
-            var photolink = process.env.PUBLIC_URL + `/headshots/${officer[0]}.jpeg`;
+            var photolink = process.env.PUBLIC_URL + `headshots/${officer[0]}.jpeg`;
             // oo == officer object
             var oo = {};
             oo.photo = photolink
