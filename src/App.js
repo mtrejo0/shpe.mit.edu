@@ -1,25 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Header from './components/header';
-import About from './containers/About';
-// import Sponsors from './containers/Sponsors';
-import Exec from './containers/Exec';
-// import ContactUs from './containers/ContactUs';
+import Main from './containers/Main';
+// import Footer from './components/footer';
 
-class App extends Component {
-	render() {
-		return (
-			<div className="App">
-
-				<Header />
-				<div className="App-Content">
-					<About />
-					{/* <Sponsors /> */}
-					<Exec />
-					{/* <ContactUs /> */}
-				</div>
-			</div>
-		);
-	}
-}
+const App = () => (
+	<div>
+		<Header />
+		<Main />
+		{/* <Footer /> */}
+	</div>
+)
 
 export default App;

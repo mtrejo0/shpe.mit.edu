@@ -1,0 +1,172 @@
+.team-members {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 0 8vw;
+    margin-top: 8vw;
+}
+
+/* .region-about .executive-team .section-heading .title {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Gotham SSm',sans-serif;
+    font-size: 16px;
+    line-height: 1.375em;
+    letter-spacing: .1875em;
+    margin: 0;
+    -webkit-margin-before: .83em;
+    -webkit-margin-after: .83em;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0
+} */
+
+.region-about .executive-team .section-heading .title.is-lowercase {
+    text-transform: none;
+    letter-spacing: normal;
+    font-weight: 300
+}
+
+.region-about .executive-team .section-heading .title.is-dark {
+    color: #222
+}
+
+.region-about .executive-team .section-heading .title.is-light {
+    color: #fff
+}
+
+@media all and (min-width: 768px) {
+    .region-about .executive-team .section-heading .title {
+        font-family:'Gotham SSm',sans-serif;
+        font-size: 18px;
+        line-height: 1.66666667em;
+        letter-spacing: .19444444em
+    }
+}
+
+@media all and (min-width: 1281px) {
+    .region-about .executive-team .section-heading .title {
+        font-family:'Gotham',sans-serif;
+        font-size: 22px;
+        line-height: 1.63636364em;
+        letter-spacing: .20454545em
+    }
+}
+
+.team-member {
+    width: 100%;
+    margin-bottom: 80px
+}
+
+@media all and (min-width: 768px) {
+    .team-member {
+        display:-webkit-box;
+        display: -ms-flexbox;
+        display: flex
+    }
+}
+
+@media all and (min-width: 1281px) {
+    .team-member {
+        width:48.38709677%;
+        margin-bottom: 140px
+    }
+}
+
+.team-member-portrait {
+    width: 80%;
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 40px;
+    -webkit-box-flex: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0
+}
+
+@media all and (min-width: 768px) {
+    .team-member-portrait {
+        width:28.88888889%;
+        margin-bottom: 0;
+        margin-right: 6.66666667%
+    }
+}
+
+.team-member-portrait img {
+    width: 100%
+}
+
+.team-member-text {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex-negative: 1;
+    flex-shrink: 1
+}
+
+.team-member-text h3 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.team-member-text h3 a {
+    text-decoration: none;
+    color: black;
+}
+
+.team-member-text h4 {
+    font-family: 'Gotham SSm',sans-serif;
+    font-size: 9px;
+    line-height: 1.11111111em;
+    letter-spacing: .33333333em;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 1.8em;
+    opacity: 1;
+    margin-top: 0;
+    margin-bottom: 20px
+}
+
+.team-member-text h4.is-dark {
+    color: rgba(0,0,0,.5)
+}
+
+.team-member-text h4.is-light {
+    color: rgba(255,255,255,.7)
+}
+
+@media all and (min-width: 1281px) {
+   .team-member-text {
+        max-width:30em
+    }
+}
+
+.region-about .executive-team .twitter-link {
+    color: #000;
+    opacity: 1;
+    -webkit-transition: opacity 300ms cubic-bezier(.694,0,.335,1);
+    -o-transition: opacity 300ms cubic-bezier(.694,0,.335,1);
+    transition: opacity 300ms cubic-bezier(.694,0,.335,1);
+    -webkit-font-smoothing: antialiased
+}
+
+.no-touch.region-about .executive-team .twitter-link:hover {
+    opacity: .6
+}
+
+/* .region-about .executive-team .twitter-link::before {
+    display: inline-block;
+    content: url(../svg/twitter-black.svg);
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    vertical-align: middle
+} */
