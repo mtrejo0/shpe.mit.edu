@@ -1,18 +1,27 @@
-import React, { Component } from 'react';
+import React from 'react';
+import { NavLink } from 'react-router-dom';
+import '../styles/header.css';
+
+var active = {
+    fontWeight: 'bold',
+    color: '#001F5B'
+}
 
 var logoStyle = {
-    width: '50%'
+    height: '250px',
 }
 
-export default class Header extends Component {
-    render() {
-        return (
-            <img src={"logo.png"} alt="logo" style={logoStyle}/>
-            // <header>
-            //     {/* <img src={logo} className="App-logo" alt="logo" /> */}
-            //     <h1 >Society of Hispanic Professional Engineers</h1>
-            //     <h2 >Massachusetts Institute of Technology (MIT) Chapter</h2>
-            // </header>
-        )
-    }
-}
+const Header = () => (
+    <header>
+        <img src="./logo.png" alt="nice" className="center" style={logoStyle}></img>
+        <nav>
+            <ul>
+                <li><NavLink exact to='/' activeStyle={active} >About Us</NavLink></li>
+                <li><NavLink to='/exec' activeStyle={active} >Executive Board</NavLink></li>
+                <li><NavLink to='/contact' activeStyle={active} >Contact Us</NavLink></li>
+            </ul>
+        </nav>
+    </header>
+)
+
+export default Header;

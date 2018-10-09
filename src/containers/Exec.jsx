@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import information from '../information/officers.json'
 import Officer from '../components/officer';
+import '../styles/exec.css';
 
 export default class Header extends Component {
 
@@ -23,7 +24,7 @@ export default class Header extends Component {
     loadOfficers() {
         let officers = []
 
-        information.information.map((officer, index) => {
+        information.information.forEach((officer) => {
             // officer = [photo (kerberos), name, position, email, year, major, bio]
             var photolink = process.env.PUBLIC_URL + `headshots/${officer[0]}.jpeg`;
             // oo == officer object
@@ -46,23 +47,20 @@ export default class Header extends Component {
         let link = "./headshots/"
         link.concat(name)
         link.concat('.png')
-        console.log(link)
+        // console.log(link)
         return link;
     }   
 
     render() {
-        console.log(this.state.officers);
+        // console.log(this.state.officers);
 
         return (
-            <div className="officers">
-            <h1 className="section-title">Our Executive Board</h1>
-            <ul className="execRow grid">
+            <div className="team-members">
                 {
                     this.state.officers.map(i => {
                         return <Officer key={i.name} info={i}/>
                     })
                 }
-            </ul>
             </div>
         )
     }

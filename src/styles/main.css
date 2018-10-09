@@ -1,0 +1,6 @@
+main > .content {
+    display: inherit;
+    flex: 1 0 auto;
+    height: 100%;
+    min-height: 100%;
+}
