@@ -20,6 +20,7 @@ const Header = () => (
                 <li><NavLink to='/exec' activeStyle={active} >Executive Board</NavLink></li>
                 {/* <li><NavLink to='/events' activeStyle={active} >Upcoming Events</NavLink></li> */}
                 <li><NavLink to='/contact' activeStyle={active} >Contact Us</NavLink></li>
+                <li><NavLink to='/sponsors' activeStyle={active} >Sponsors</NavLink></li>
             </ul>
         </nav>
     </header>
