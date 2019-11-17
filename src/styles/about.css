@@ -1,9 +1,9 @@
 .parallax-exec {
     /* The image used */
-    background-image: url("../images/exec_old.jpeg");
+    background-image: url("../images/exec_2019.jpeg");
 
     /* Set a specific height */
-    min-height: 500px; 
+    min-height: 500px;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -17,7 +17,7 @@
     background-image: url("../images/president.jpg");
 
     /* Set a specific height */
-    min-height: 500px; 
+    min-height: 500px;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -31,7 +31,7 @@
     background-image: url("../images/officers.jpg");
 
     /* Set a specific height */
-    min-height: 500px; 
+    min-height: 500px;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -45,7 +45,7 @@
     background-image: url("../images/meeting.jpg");
 
     /* Set a specific height */
-    min-height: 500px; 
+    min-height: 500px;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
