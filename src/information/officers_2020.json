@@ -1,0 +1,12 @@
+{
+	"information": [
+		["hidai", "Hidai Olivas","President" , "hidai@mit.edu", "Senior", "Computer Science", "TEST"],
+		["suribe", "Sebastian Uribe", "Vice President", "suribe@mit.edu", "Senior", "Mechanical Engineer", ""],
+		["umagana", "Uriel Magana", "Treasurer","umagana@mit.edu", "Junior","Mechanical Engineering", "Hi I’m Uriel, and I’m a junior this year majoring in mechanical engineering and medical devices with a minor French. Love being a part of different Latino groups on campus, playing soccer, and DJing!"],
+		["amart615", "Alejandro Martinez", "Co-Corporate Liaison", "amart615@mit.edu", "Sophomore", "Mechanical Engineering", "Hi! My name is Alejandro, but most people know me as Alex and I'm from San Francisco, CA. I'm a sophomore majoring in mechanical engineering with a concentration in controls, instrumentation, and robotics. In my free time, I really enjoy being active, working in wood and metal shops as well as taking on the occasional crossword puzzle!"],
+		["moisest","Moises Trejo","Social Chair","moisest@mit.edu", "Sophomore", "Computer Science", "Hey! I'm Moises Trejo I am a Computer Science major originally from Dallas, Texas. I love my familia and my SHPE familia because of the community and people. I'm passionate about mobile development and Machine Learning."],
+		["jvila", "Javi A. Vilá", "Noche De Ciencias Representative", "jvila@mit.edu", "Freshman", "Biological Engineering", "Hi! I’m Javi, a freshman from San Juan, Puerto Rico. Back home, I enjoy baking with my sisters, practicing piano and soccer, and deep-sea fishing! I will study bioengineering and economics to prime my research and analytical skills, while also pursuing courses in public health to broaden my perspective. I want to impact the medical field by developing economically accessible medical devices and promoting equity in healthcare."],
+		["jenmc","Jenna McClellan","High School Outreach Representative","jenmc@mit.edu","Freshman","Computer Science","Hi! My name is Jenna and I'm a computer science student originally from Las Cruces, New Mexico. I'm really excited about back-end development and in my free time, I love listening to music, bullet journaling, and exploring the Boston area!"]
+	],
+	"term":"FA19"
+}
