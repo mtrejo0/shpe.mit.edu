@@ -8,7 +8,7 @@ var active = {
 }
 
 var logoStyle = {
-    height: '250px',
+    height: '150px',
 }
 
 const Header = () => (
