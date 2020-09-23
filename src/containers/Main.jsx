@@ -48,19 +48,3 @@ const Main = () => ( <
 )
 
 export default Main;
-
-// class App {
-// 	render() {
-// 		return (
-// 			<div className="App">
-// 				<Header />
-// 				<div className="App-Content">
-// 					<About />
-// 					{/* <Sponsors /> */}
-// 					<Exec />
-// 					{/* <ContactUs /> */}
-// 				</div>
-// 			</div>
-// 		);
-// 	}
-// }
