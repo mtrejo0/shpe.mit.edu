@@ -52,7 +52,8 @@ export default class Header extends Component {
             <div className="sponsors">
                 {
                     this.state.sponsors.map(i => {
-                        return <Sponsor key={i.name} info={i}/>
+                        return <Sponsor key={i.name} info={i}/>;
+                            
                     })
                 }
             </div>

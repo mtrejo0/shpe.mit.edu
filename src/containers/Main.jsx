@@ -9,6 +9,7 @@ import Exec from './Exec';
 import Events from './Events';
 import ContactUs from './ContactUs';
 import '../styles/main.css';
+import ComServe from './ComServe';
 
 const Main = () => ( <
   main >
@@ -22,6 +23,11 @@ const Main = () => ( <
     About
   }
   /> <
+  Route path = '/comserve'
+  component = {
+    ComServe
+  }
+  /><
   Route path = '/sponsors'
   component = {
     Sponsors
@@ -44,7 +50,7 @@ const Main = () => ( <
   /> <
   /Switch> <
   /div> <
-  /main>
+/main>
 )
 
 export default Main;
