@@ -20,6 +20,7 @@ export default class About extends Component {
 						from any and all majors. Also, and this may come as a suprise
 						to you, but being hispanic is not a requirement to be a member!
 						Please email shpe-exec@mit.edu if you're interested in getting involved!</p>
+						<p><a href="https://forms.gle/1wW6Ag3m8BWxw4Ed8" target="_blank" rel="noopener noreferrer">Sign Up</a> for our mailing list with your mit.edu email! </p>
 				</div>
         <div className="retreat-2019"></div>
         <div className="conference-2"></div>
