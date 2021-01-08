@@ -8,16 +8,16 @@ export default class MainPanel extends Component {
 
     render() {
       var info = this.props.info;
-      console.log(info.name);
 
         return (
             <div className="sponsor boxShadow">
-                <h1>{info.name}</h1>
+                <h4>{info.name}</h4>
                 <div className="sponsor-portrait">
                     <Avatar
                         image={info.photo}
                     />
                 </div>
+                <p><a href={info.link} target="_blank" rel="noopener noreferrer">Apply!</a></p>
             </div>
         )
     }

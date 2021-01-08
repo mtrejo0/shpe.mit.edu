@@ -17,8 +17,8 @@
     justify-content: center;
     flex-direction: column;
     font-size: 20pt;
-    padding-bottom: 32;
-    padding-bottom: 100px;
+    padding: 32;
+    margin: 8px;
 }
 
 .boxShadow{

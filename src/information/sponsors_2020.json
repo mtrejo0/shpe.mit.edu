@@ -1,0 +1,59 @@
+{
+	"information": [
+		{
+			"name": "Accenture",
+			"img": "accenture",
+			"link": "https://www.accenture.com/us-en/careers"
+		},
+		{
+			"name": "Aerospace Corporation",
+			"img": "aerospace",
+			"link": "https://aerospace.org/careers"
+		},
+		{
+			"name": "Aptiv",
+			"img": "aptiv",
+			"link": "https://www.aptiv.com/en/careers/search"
+		},
+		{
+			"name": "Bloomberg",
+			"img": "bloomberg",
+			"link": "https://careers.bloomberg.com/login"
+		},
+		{
+			"name": "Chevron",
+			"img": "chevron",
+			"link": "https://careers.chevron.com/"
+		},
+		{
+			"name": "Exxon",
+			"img": "exxon",
+			"link": "https://jobs.exxonmobil.com/"
+		},
+		{
+			"name": "Google",
+			"img": "google",
+			"link": "https://careers.google.com/jobs/"
+		},
+		{
+			"name": "NVIDIA",
+			"img": "nvidia",
+			"link": "https://www.nvidia.com/en-us/about-nvidia/careers/"
+		},
+		{
+			"name": "Salesforce",
+			"img": "salesforce",
+			"link": "https://www.salesforce.com/company/careers/"
+		},
+		{
+			"name": "Shell",
+			"img": "shell",
+			"link": "https://www.shell.com/careers.html"
+		},
+		{
+			"name": "Yext",
+			"img": "yext",
+			"link": "https://www.yext.com/careers/"
+		}
+	]
+}

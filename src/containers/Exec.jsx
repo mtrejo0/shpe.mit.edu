@@ -17,8 +17,6 @@ export default class Header extends Component {
             ...this.state,
             officers: this.loadOfficers()
         })
-
-        // this.state.officers = this.loadOfficers();
     }
 
     loadOfficers() {
@@ -47,12 +45,10 @@ export default class Header extends Component {
         let link = "./headshots/"
         link.concat(name)
         link.concat('.png')
-        // console.log(link)
         return link;
     }   
 
     render() {
-        // console.log(this.state.officers);
 
         return (
             <div className="team-members">

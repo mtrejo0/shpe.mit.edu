@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import information from '../information/sponsors_2019.json'
+import information from '../information/sponsors_2020.json'
 import Sponsor from '../components/sponsor';
 import '../styles/sponsors.css';
 
@@ -25,12 +25,12 @@ export default class Header extends Component {
 
         information.information.forEach((sponsor) => {
             // sponsor = [photo (name), name, blurb]
-            var photolink = process.env.PUBLIC_URL + `sponsorLogos/${sponsor[0]}.jpeg`;
+            var photolink = process.env.PUBLIC_URL + `sponsorLogos/${sponsor.img}.jpeg`;
             // s == sponsor object
             var s = {};
             s.photo = photolink
-            s.name = sponsor[1]
-            s.blurb = sponsor[2]
+            s.name = sponsor.name
+            s.link = sponsor.link
 
             sponsors.push(s);
         })
@@ -52,8 +52,7 @@ export default class Header extends Component {
             <div className="sponsors">
                 {
                     this.state.sponsors.map(i => {
-                        return <Sponsor key={i.name} info={i}/>;
-                            
+                        return <Sponsor key={i.name} info={i}/>;    
                     })
                 }
             </div>

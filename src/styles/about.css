@@ -65,3 +65,7 @@
 .section > p {
     font-size: 25px;
 }
+
+.quotes {
+    margin: 32px;
+}
