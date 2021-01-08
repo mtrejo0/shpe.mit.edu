@@ -14,6 +14,7 @@ var logoStyle = {
 const Header = () => (
     <header>
         <img src="./logo.png" alt="nice" className="center" style={logoStyle}></img>
+        hi
         <nav>
             <ul>
                 <li><NavLink exact to='/' activeStyle={active} >About Us</NavLink></li>
