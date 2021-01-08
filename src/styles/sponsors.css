@@ -11,13 +11,21 @@
     margin-top: 8vw;
 }
 
+@media all and (max-width: 768px) {
+    .sponsors {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
 .sponsor {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     font-size: 20pt;
-    padding: 32;
+    padding: 32px;
     margin: 8px;
 }
 
