@@ -1,13 +1,11 @@
 import React from 'react';
 import Header from './components/header';
 import Main from './containers/Main';
-// import Footer from './components/footer';
 
 const App = () => (
-	<div>
+	<div style={{display: "flex", alignItems: "center", justifyContent: "center", flexDirection: "column"}}>
 		<Header />
 		<Main />
-		{/* <Footer /> */}
 	</div>
 )
 
