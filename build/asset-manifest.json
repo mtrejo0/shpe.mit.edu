@@ -1,15 +1,8 @@
 {
-<<<<<<< HEAD
-  "main.css": "static/css/main.59fc1d17.css",
-  "main.css.map": "static/css/main.59fc1d17.css.map",
-  "main.js": "static/js/main.2ed54314.js",
-  "main.js.map": "static/js/main.2ed54314.js.map",
-=======
-  "main.css": "static/css/main.05799d82.css",
-  "main.css.map": "static/css/main.05799d82.css.map",
+  "main.css": "static/css/main.b965e91b.css",
+  "main.css.map": "static/css/main.b965e91b.css.map",
   "main.js": "static/js/main.1dab238c.js",
   "main.js.map": "static/js/main.1dab238c.js.map",
->>>>>>> 35dc6186748943f1a9700796a462d2f4725e1b00
   "static/media/conference_2019_1.jpg": "static/media/conference_2019_1.5fba7968.jpg",
   "static/media/conference_2019_2.jpg": "static/media/conference_2019_2.df99857f.jpg",
   "static/media/exec_2019.jpeg": "static/media/exec_2019.24f04c90.jpeg",
