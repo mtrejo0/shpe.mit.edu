@@ -38,13 +38,6 @@ export default class Header extends Component {
         return sponsors;
     }
 
-    getPhotoLink(name) {
-        let link = "./sponsorLogos/"
-        link.concat(name)
-        link.concat('.png')
-        // console.log(link)
-        return link;
-    }
 
     render() {
 

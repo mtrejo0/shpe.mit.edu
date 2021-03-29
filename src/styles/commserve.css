@@ -1,3 +1,13 @@
 .wrapper {
     margin: 64px;
 }
+
+.mentor_shpe {
+    width: 60%;
+}
+
+@media all and (max-width: 768px) {
+    .mentor_shpe {
+        width: 100%;
+    }
+}
