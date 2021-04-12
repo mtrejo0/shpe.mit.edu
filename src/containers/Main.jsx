@@ -11,46 +11,17 @@ import ContactUs from './ContactUs';
 import '../styles/main.css';
 import ComServe from './ComServe';
 
-const Main = () => ( <
-  main >
-  <
-  div className = "content" >
-  <
-  Switch >
-  <
-  Route exact path = '/'
-  component = {
-    About
-  }
-  /> <
-  Route path = '/comserve'
-  component = {
-    ComServe
-  }
-  /><
-  Route path = '/sponsors'
-  component = {
-    Sponsors
-  }
-  /> <
-  Route path = '/exec'
-  component = {
-    Exec
-  }
-  /> <
-  Route path = '/contact'
-  component = {
-    ContactUs
-  }
-  /> <
-  Route path = '/events'
-  component = {
-    Events
-  }
-  /> <
-  /Switch> <
-  /div> <
-/main>
+const Main = () => ( <div>
+  <div className = "content" >
+  <Switch >
+    <Route exact path = '/' component = {About}/> 
+    <Route path = '/comserve' component = {ComServe}/>
+    <Route path = '/sponsors' component = {Sponsors}/> 
+    <Route path = '/exec' component = {Exec}/> 
+    <Route path = '/contact' component = {ContactUs}/> 
+    <Route path = '/events'component = {Events}/> 
+    <Route path = '/zoom' component = {() => window.location.href = 'https://mit.zoom.us/j/94026373084'}/> 
+  </Switch> </div> </div>
 )
 
 export default Main;
