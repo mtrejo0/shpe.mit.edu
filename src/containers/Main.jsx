@@ -8,7 +8,7 @@ import Sponsors from './Sponsors';
 import Exec from './Exec';
 import Events from './Events';
 import ContactUs from './ContactUs';
-import '../styles/main.css';
+import '../styles.css';
 import ComServe from './ComServe';
 
 const Main = () => ( <div>

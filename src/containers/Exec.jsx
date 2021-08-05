@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import information from '../information/officers_2020.json'
 import Officer from '../components/officer';
-import '../styles/exec.css';
+import '../styles.css';
 
 export default class Header extends Component {
 
@@ -51,7 +51,7 @@ export default class Header extends Component {
     render() {
 
         return (
-            <div className="team-members">
+            <div className="officers">
                 {
                     this.state.officers.map(i => {
                         return <Officer key={i.name} info={i}/>

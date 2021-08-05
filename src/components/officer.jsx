@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import Avatar from './avatar';
-
 // reference: https://codepen.io/selenacarmooshe/pen/oLgPJq
 
 export default class MainPanel extends Component {
@@ -17,14 +15,9 @@ export default class MainPanel extends Component {
 
       if (!info) return null;
         return (
-            <div className="team-member">
-                <div className="team-member-portrait">
-                    <Avatar
-                        image={info.photo}
-                        width={200}
-                        height={200}
-                    />
-                </div>
+            <div className="nice-border officer">
+                <img src={process.env.PUBLIC_URL + info.photo}  className="profile" alt={info.photo}></img>
+
                 <div className="team-member-text">
                     <a href={this.generateMailTo()} target="_none"><h3>{info.name}</h3></a>
                     <h4>{info.position} | {info.year}</h4>

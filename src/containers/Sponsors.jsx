@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import information from '../information/sponsors_2020.json'
 import Sponsor from '../components/sponsor';
-import '../styles/sponsors.css';
+import '../styles.css';
 
 export default class Header extends Component {
 
