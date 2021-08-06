@@ -11,6 +11,7 @@ export default class About extends Component {
         }
     }
 
+	
     componentWillMount() {
         this.setState({
             ...this.state,
