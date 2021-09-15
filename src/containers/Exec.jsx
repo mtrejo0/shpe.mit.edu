@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import information from '../information/officers_2020.json'
+import information from '../information/officers_2021.json'
 import Officer from '../components/officer';
 import '../styles.css';
 
