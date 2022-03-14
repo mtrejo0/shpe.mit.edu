@@ -229,3 +229,11 @@ main > .content {
     display: inline-flex;
     flex-wrap: wrap;
 }
+
+.sign-up {
+    background: rgb(180, 248, 255);
+}
+
+.donate {
+    background: rgb(191, 255, 216);
+}

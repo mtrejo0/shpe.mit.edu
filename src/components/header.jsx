@@ -13,11 +13,12 @@ const Header = () => (
         <ul className='nav-center'>
             <li><NavLink exact to='/' activeStyle={active} >About Us</NavLink></li>
             <li><NavLink to='/exec' activeStyle={active} >Executive Board</NavLink></li>
-            <li><NavLink to='/events' activeStyle={active} >Upcoming Events</NavLink></li>
+            <li><NavLink to='/events' activeStyle={active} >Calendar</NavLink></li>
             <li><NavLink to='/comserve' activeStyle={active} >Community Service</NavLink></li>
-            <li><NavLink to='/contact' activeStyle={active} >Contact Us</NavLink></li>
             <li><NavLink to='/sponsors' activeStyle={active} >Sponsors</NavLink></li>
-            <a href="https://forms.gle/1wW6Ag3m8BWxw4Ed8" target="_blank" rel="noopener noreferrer" ><button className='button'>Sign Up!</button></a>
+            <li><NavLink to='/contact' activeStyle={active} >Contact Us</NavLink></li>
+            <li className='sign-up'><a href="https://forms.gle/1wW6Ag3m8BWxw4Ed8" target="_blank" rel="noopener noreferrer" >Sign Up</a></li>
+            <li className='donate'><a href="https://giving.mit.edu/form/#/" target="_blank" rel="noopener noreferrer" >Donate</a></li>
         </ul>
     </div>
 )
