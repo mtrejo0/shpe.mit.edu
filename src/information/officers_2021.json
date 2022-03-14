@@ -1,16 +1,112 @@
-
 {
-	"information": [
-		["moisest","Moises Trejo", "President", "moisest@mit.edu", "Senior", "Computer Science", "Hey! I'm Moises Trejo I am a Computer Science major originally from Dallas, Texas. I love my familia and my SHPE familia because of the community and people. I'm passionate about mobile development and Machine Learning."],
-		["jenmc","Jenna McClellan","Vice President","jenmc@mit.edu","Junior","Computer Science","Hi! My name is Jenna and I'm a computer science student originally from Las Cruces, New Mexico. I'm really excited about back-end development and in my free time, I love listening to music, bullet journaling, and exploring the Boston area!"],
-    ["dvelez", "Daniela Velez", "Secretary", "dvelez@mit.edu", "Junior", "Computer  Science", "Hi, I’m Daniela! I’m studying Computer Science with a minor in Urban Studies and Planning. I’m also involved in entrepreneurship on and off campus, and I’m passionate about social impact tech! When I’m not coding, you can find me planning entrepreneurship events or playing piano. Love helping empower the latinx community and being a part of the SHPE familia!"],
-		["jacobrod","Jacob Rodriguez","Corporate Liaison","jacobrod@mit.edu","Sophomore","Aerospace Engineering","My name is Jacob Rodriguez and I'm a current freshman from Orange County, California planning on double majoring in Aerospace Engineering and Physics! With big dreams to become an astronaut, SHPE inspired me to start a non-profit that aids under-represented students in pursuit of a STEM career. When I'm not building robots, doing physics research, or blowing things up with rocket team, I love to cook, play electric guitar, and play volleyball."],
-    ["audea","Andrea Aude","Social Chair, Community Service: Noche de Ciencias Chair","audea@mit.edu","Sophomore","Biological Engineering","Hi, I'm Andrea! I'm a sophomore in chemical engineering (#RushCourse10) with a concentration in Chinese. I'm from Frederick, Maryland. Outside of SHPE, I’m also in Kappa Alpha Theta and I UROP in the Green Lab. In my free time I like to be active, draw/paint, and read!"],
-		["michelle","Michelle Mantilla","Community Service: High School Outreach Chair","mmmantil@mit.edu","Sophomore","Chemical-Biological Engineering","Hello, my name is Michelle Mantilla and I am from Boston, MA! I am a junior studying Chemical-Biological Engineering and interested in pursuing medicine. Outside of my studies, I am incredibly passionate about teaching STEM to underrepresent high school students, playing cello in the Kendall Square Orchestra, and playing soccer."],
-    ["lcastro","Luis Castro","Professional Development Chair","lcastro@mit.edu","Junior","Computer Science","Hi! My name’s Luis, and I’m a current junior studying Computer Science and Engineering (6-3). As a first-generation, low-income student from the Bronx, I grew passionate about learning how to use data science or software engineering to elevate underserved communities. When I’m not at SHPE, you’ll find me hanging out with friends, thrifting, or playing badminton!"],
-    ["ericgon","Eric Gonazales","SHPE Rep","ericgon@mit.edu","Junior","...","..."],
-    ["antonyh","Antony Hernandez","Social Chair","ericgon@mit.edu","Junior","Computer Science","Hello! My name is Antony and I was born in North Carolina but grew up in Mexico, Nuevo Leon and San Luis Potosi, and in Texas, the Rio Grande Valley. I am a computer science student, and in my free time I like to play basketball, lift weights and play video games, especially smash bros."],
-    ["dmarenas","Diego Arenas","Treasurer","dmarenas@mit.edu","Junior","...","..."]
-	],
-	"term":"FA21"
+  "information": [
+    [
+      "moisest",
+      "Moises Trejo",
+      "President",
+      "moisest@mit.edu",
+      "Senior",
+      "Computer Science",
+      "Hey! I'm Moises Trejo I am a Computer Science major originally from Dallas, Texas. I love my familia and my SHPE familia because of the community and people. I'm passionate about mobile development and Machine Learning."
+    ],
+    [
+      "jenmc",
+      "Jenna McClellan",
+      "Vice President",
+      "jenmc@mit.edu",
+      "Junior",
+      "Computer Science",
+      "Hi! My name is Jenna and I'm a computer science student originally from Las Cruces, New Mexico. I'm really excited about back-end development and in my free time, I love listening to music, bullet journaling, and exploring the Boston area!"
+    ],
+    [
+      "dvelez",
+      "Daniela Velez",
+      "Secretary",
+      "dvelez@mit.edu",
+      "Junior",
+      "Computer  Science",
+      "Hi, I’m Daniela! I’m studying Computer Science with a minor in Urban Studies and Planning. I’m also involved in entrepreneurship on and off campus, and I’m passionate about social impact tech! When I’m not coding, you can find me planning entrepreneurship events or playing piano. Love helping empower the latinx community and being a part of the SHPE familia!"
+    ],
+    [
+      "jacobrod",
+      "Jacob Rodriguez",
+      "Corporate Liaison",
+      "jacobrod@mit.edu",
+      "Sophomore",
+      "Aerospace Engineering",
+      "My name is Jacob Rodriguez and I'm a current freshman from Orange County, California planning on double majoring in Aerospace Engineering and Physics! With big dreams to become an astronaut, SHPE inspired me to start a non-profit that aids under-represented students in pursuit of a STEM career. When I'm not building robots, doing physics research, or blowing things up with rocket team, I love to cook, play electric guitar, and play volleyball."
+    ],
+    [
+      "audea",
+      "Andrea Aude",
+      "Social Chair, Community Service: Noche de Ciencias Chair",
+      "audea@mit.edu",
+      "Sophomore",
+      "Biological Engineering",
+      "Hi, I'm Andrea! I'm a sophomore in chemical engineering (#RushCourse10) with a concentration in Chinese. I'm from Frederick, Maryland. Outside of SHPE, I’m also in Kappa Alpha Theta and I UROP in the Green Lab. In my free time I like to be active, draw/paint, and read!"
+    ],
+    [
+      "michelle",
+      "Michelle Mantilla",
+      "Community Service: High School Outreach Chair",
+      "mmmantil@mit.edu",
+      "Sophomore",
+      "Chemical-Biological Engineering",
+      "Hello, my name is Michelle Mantilla and I am from Boston, MA! I am a junior studying Chemical-Biological Engineering and interested in pursuing medicine. Outside of my studies, I am incredibly passionate about teaching STEM to underrepresent high school students, playing cello in the Kendall Square Orchestra, and playing soccer."
+    ],
+    [
+      "lcastro",
+      "Luis Castro",
+      "Professional Development Chair",
+      "lcastro@mit.edu",
+      "Junior",
+      "Computer Science",
+      "Hi! My name’s Luis, and I’m a current junior studying Computer Science and Engineering (6-3). As a first-generation, low-income student from the Bronx, I grew passionate about learning how to use data science or software engineering to elevate underserved communities. When I’m not at SHPE, you’ll find me hanging out with friends, thrifting, or playing badminton!"
+    ],
+    [
+      "ericgon",
+      "Eric Gonazales",
+      "SHPE Rep",
+      "ericgon@mit.edu",
+      "Junior",
+      "...",
+      "..."
+    ],
+    [
+      "antonyh",
+      "Antony Hernandez",
+      "Social Chair",
+      "ericgon@mit.edu",
+      "Junior",
+      "Computer Science",
+      "Hello! My name is Antony and I was born in North Carolina but grew up in Mexico, Nuevo Leon and San Luis Potosi, and in Texas, the Rio Grande Valley. I am a computer science student, and in my free time I like to play basketball, lift weights and play video games, especially smash bros."
+    ],
+    [
+      "dmarenas",
+      "Diego Arenas",
+      "Treasurer",
+      "dmarenas@mit.edu",
+      "Junior",
+      "...",
+      "..."
+    ],
+    [
+      "camerony",
+      "Cameron Young",
+      "Community Service: High School Outreach Chair",
+      "camerony@mit.edu",
+      "Freshman",
+      "Computer Science",
+      "Hi! My name is Cameron and I am a Computer Science student from Lancaster, PA. Some of my academic interests and passions include cryptocurrency, video game development, and finance. Outside of the classroom, I love researching the stock market, PC gaming, playing soccer and basketball, and simply just having fun with friends."
+    ],
+    [
+      "gpcs",
+      "Giuliana Sanchez",
+      "Social Media Awareness",
+      "Freshman",
+      "Computer Science",
+      "Hi! My name is Giuliana Cabrera and I'm a current freshman. I was born in Nicaragua but grew up in Miami, FL. I'm interested in mechanical engineering and computer science, and its intersection with climate, education, or social justice. Besides finding ways to use STEM for social impact, I spend my free time taking care of my plants, biking with my friends, or reading historical fiction novels!"
+    ]
+  ],
+  "term": "FA21"
 }
