@@ -11,7 +11,7 @@ export default class About extends Component {
         }
     }
 
-	
+
     componentWillMount() {
         this.setState({
             ...this.state,
@@ -20,7 +20,7 @@ export default class About extends Component {
 	}
 
 
-	
+
     render() {
         return (
         <div className="mission">
@@ -32,14 +32,14 @@ export default class About extends Component {
 				<p>The Society of Hispanic Professional Engineers is the largest Hispanic Engineering and Science organization across the U.S. and Puerto Rico.
 One of 236 student chapters, SHPE-MIT was established in 1987 and has grown to become one of the strongest and successful chapters in the Northeast.
 	SHPE-MIT is dedicated to developing the professional and academic skills of our members by offering them internship, networking, mentoring, and diversity awareness opportunities.</p>
-<a href="https://forms.gle/1wW6Ag3m8BWxw4Ed8" target="_blank" rel="noopener noreferrer" ><button className='button'>Join Our Mailing List!</button></a>				
+<a href="https://forms.gle/1wW6Ag3m8BWxw4Ed8" target="_blank" rel="noopener noreferrer" ><button className='button'>Join Our Mailing List!</button></a>
 			</div>
 			<div className='center'>
 				<img src={process.env.PUBLIC_URL + `/images/conference_2019_1.jpg`} className='image' alt='conference1'></img>
 			</div>
-			
+
 			<div className="section">
-				<h3>Interested in Joining?</h3>
+				<h3>Interested in Joining SHPE?</h3>
 				<p>We're always looking for new members! While we may be called
 					"Society of Hispanic Professional Engineers" we welcome people
 					from any and all majors. Also, and this may come as a suprise
@@ -50,7 +50,7 @@ One of 236 student chapters, SHPE-MIT was established in 1987 and has grown to b
 				<img src={process.env.PUBLIC_URL + `/images/retreat_2019.jpg`} className='image' alt='retreat'></img>
 			<img src={process.env.PUBLIC_URL + `/images/conference_2019_2.jpg`} className='image' alt='conference2'></img>
 			</div>
-			
+
 			<br></br>
 			<center>
 				<h1>Why do you love SHPE?</h1>
@@ -58,7 +58,7 @@ One of 236 student chapters, SHPE-MIT was established in 1987 and has grown to b
 					{this.state.quotes.map( (x) => <h4>" {x} "</h4>)}
 				</div>
 			</center>
-			
+
 		</div>
         )
     }
